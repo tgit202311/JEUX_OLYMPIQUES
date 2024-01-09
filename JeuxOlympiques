@@ -1,0 +1,23 @@
+Projet des Jeux Olympiques
+
+Le but du projet est de créer un afficheur du classement lors d'une Epreuve des
+Jeux Olympiques de Paris 2024
+
+Le but est de présenter l'afficheru de la manière la plus agréable au Public
+afi de présenter un affichage convivial et dans l'esprit des festivités des JO
+Il faut :
+- Créer un minimum d'animation fluide
+- Afficher de manière claire et lisible le classement avec un podium
+- Afficher un effet d'animation avec le fond d'écran
+
+- la classe Vec est fondamentale car elle va permettre de positionner les objets sur l'ecran
+
+- la classe Texte 
+- la classe classement
+- la classe Joueur
+- La classe Podium qui contient dans l'ordre les 3 premiers jouueurs dans l'ordre
+
+
+
+
+Le fond d'écran est un motif hexagonal entouré en rouge
