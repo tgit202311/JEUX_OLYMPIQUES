@@ -10,3 +10,7 @@ Utilisez la commande suivante :
 "sudo apt-get install libsfml-dev"
 Cela devrait régler le problème.
 
+--- CHANGEMENT DU CLASSEMENT ---
+
+Le classement est donné par le fichier d'entrée "/ressources/classement.txt". Il est modifiable à votre gré
+
