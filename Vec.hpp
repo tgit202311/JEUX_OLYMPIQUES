@@ -7,6 +7,7 @@
 #include <SFML/Graphics.hpp>
 #define VECTEUR_NUL Vec(0,0)
 
+
 class Vec{
 
 	public:

@@ -1,16 +1,16 @@
---- ÉTAT D'AVANCEMENT ---
+# JEUX_OLYMPIQUES
 
-En raison de ma situation particulière, j'ai pris du retard. Je suis actuellement en train de finir le rapport et l'ajouterai au repo dès que terminé.
+Le projet JEUX_OLYMPIQUES permet d'afficher un classement 
+de participants à partir d'un fichier texte, il lit le fichier texte et il est capable d'afficher les noms prénoms et position des joueur dans l'ordre respectif, 
 
---- RÉSOLUTION D'ERREUR LORS DE L'EXÉCUTION ---
+# INSTALLATION #
 
-Si vous obtenez l'erreur suivante :
-"fatal error: SFML/Graphics.hpp: No such file or directory"
-Utilisez la commande suivante :
-"sudo apt-get install libsfml-dev"
-Cela devrait régler le problème.
+pour exécuter le projet, l'option qui a été testée sur un système  Ubuntu, pour cela la librairie sfml est nécessaire et il est relativement facile de l'installer dont voici les étapes d'installation sur système ubuntu:
 
---- CHANGEMENT DU CLASSEMENT ---
+1) Ouvrir un terminal
+2) Taper sudo apt get install libsfml-dev
+3) valider les étapes sur le terminal et attendre la fin de l'installation
 
-Le classement est donné par le fichier d'entrée "/ressources/classement.txt". Il est modifiable à votre gré
+Une fois l'installation de la librairie effectuée c'est la seule étape, il faut ensuite faire appel
+à la commande Make compiler pour
 

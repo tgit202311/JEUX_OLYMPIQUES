@@ -6,6 +6,6 @@ Alexei Popyrin 6
 Jordan Thompson 7
 Dennis Novak 8
 Jurij Rodionov 9
-Dominic Thiem1 0
+Dominic Thiem1 10
 David Goffin 11
 

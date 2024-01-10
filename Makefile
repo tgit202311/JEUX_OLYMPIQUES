@@ -1,7 +1,7 @@
 all : jeux
 
-jeux: main.o Vec.o Texte.o Sportif.o Systeme.o Classement.o Matrice.o
-	g++ main.o Vec.o Texte.o Sportif.o Classement.o Systeme.o Matrice.o -o jeux -lsfml-graphics -lsfml-window -lsfml-system
+jeux: main.o Vec.o Texte.o Sportif.o Systeme.o Classement.o Matrice.o Polaire.o
+	g++ main.o Vec.o Texte.o Sportif.o Classement.o Systeme.o Matrice.o Polaire.o -o jeux -lsfml-graphics -lsfml-window -lsfml-system
 
 main.o:
 	g++ -c main.cpp -o main.o
@@ -22,6 +22,9 @@ Systeme.o:
 
 Matrice.o:
 	g++ -c Matrice.cpp -o Matrice.o
+
+Polaire.o:
+	g++ -c Polaire.cpp -o Polaire.o
 
 clean:
 	rm *.o

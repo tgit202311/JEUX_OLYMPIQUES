@@ -11,7 +11,7 @@ Texte::Texte(){
 	
 	if(!police.loadFromFile("ressources/police/police.ttf")){
 		cout<<"Erreur dans le chargement de la police !"<<endl;
-		exit(EXIT_FAILURE);
+		
 
 	}	
 	valeur.setFont(police);
@@ -35,7 +35,7 @@ Texte::Texte(string Valeur, unsigned short int taille, string fontPath,const Vec
 
 	if(!police.loadFromFile(fontPath)){
 		cout<<"Erreur dans le chargement de la police !"<<endl;
-		exit(EXIT_FAILURE);
+		
 
 	}	
 	valeur.setFont(police);
